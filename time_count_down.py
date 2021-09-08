@@ -10,6 +10,6 @@ deadline_date = datetime.datetime.strptime(deadline, "%d.%m.%Y")
 today_date = datetime.datetime.today()
 #calculate how many days from now till deadline
 time_till = deadline_date - today_date
-print (f" dear user time to reach your goal:{goal} is {time_till.days}days")
+print (f" dear user time to reach your goal:{goal} is {time_till.days} days")
 
 
