@@ -4,7 +4,7 @@ class User:
         self.email    =      user_email
         self.name     =      name
         self.password =      password
-        self.current_job_title = current_job_title
+        self.current_job_title =  current_job_title
 
     def changepassword(self,new_password):
          self.password = new_password
